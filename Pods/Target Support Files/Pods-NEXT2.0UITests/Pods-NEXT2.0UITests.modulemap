@@ -1,0 +1,6 @@
+framework module Pods_NEXT2_0UITests {
+  umbrella header "Pods-NEXT2.0UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

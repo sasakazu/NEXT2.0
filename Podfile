@@ -7,6 +7,10 @@ target 'NEXT2.0' do
 
   # Pods for NEXT2.0
 
+  pod 'Firebase'
+  
+  
+  
   target 'NEXT2.0Tests' do
     inherit! :search_paths
     # Pods for testing
