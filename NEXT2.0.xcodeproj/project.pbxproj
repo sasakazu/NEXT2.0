@@ -10,6 +10,7 @@
 		1D06E400678ED33C34595016 /* Pods_NEXT2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3319D40ADDF417E9E546997 /* Pods_NEXT2_0Tests.framework */; };
 		2049CE2A639C2B6E868BE077 /* Pods_NEXT2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE087629A8730AA4951CDAC7 /* Pods_NEXT2_0UITests.framework */; };
 		51F76118D7D696CA8517917A /* Pods_NEXT2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFCDE99E197CA343D6DB8E9 /* Pods_NEXT2_0.framework */; };
+		73EABBCD22B3A4780089713D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73EABBCC22B3A4780089713D /* GoogleService-Info.plist */; };
 		73F4E78122B236FA0050F409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4E78022B236FA0050F409 /* AppDelegate.swift */; };
 		73F4E78322B236FA0050F409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4E78222B236FA0050F409 /* ViewController.swift */; };
 		73F4E78622B236FA0050F409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F4E78422B236FA0050F409 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		2FF957A666CBE74797F2C2F6 /* Pods-NEXT2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT2.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-NEXT2.0Tests/Pods-NEXT2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		512FD490DCEEB3F90546D791 /* Pods-NEXT2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT2.0Tests.release.xcconfig"; path = "Target Support Files/Pods-NEXT2.0Tests/Pods-NEXT2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C7E51DE6E6738B7C1468B5B /* Pods-NEXT2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT2.0.release.xcconfig"; path = "Target Support Files/Pods-NEXT2.0/Pods-NEXT2.0.release.xcconfig"; sourceTree = "<group>"; };
+		73EABBCC22B3A4780089713D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		73F4E77D22B236FA0050F409 /* NEXT2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEXT2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F4E78022B236FA0050F409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F4E78222B236FA0050F409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				73F4E78222B236FA0050F409 /* ViewController.swift */,
 				73F4E78422B236FA0050F409 /* Main.storyboard */,
 				73F4E78722B236FB0050F409 /* Assets.xcassets */,
+				73EABBCC22B3A4780089713D /* GoogleService-Info.plist */,
 				73F4E78922B236FB0050F409 /* LaunchScreen.storyboard */,
 				73F4E78C22B236FB0050F409 /* Info.plist */,
 			);
@@ -162,7 +165,6 @@
 				DC720D3EAC557172CE9E8036 /* Pods-NEXT2.0UITests.debug.xcconfig */,
 				C7E8E5D67719F3515DC8B22E /* Pods-NEXT2.0UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -275,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F4E78B22B236FB0050F409 /* LaunchScreen.storyboard in Resources */,
+				73EABBCD22B3A4780089713D /* GoogleService-Info.plist in Resources */,
 				73F4E78822B236FB0050F409 /* Assets.xcassets in Resources */,
 				73F4E78622B236FA0050F409 /* Main.storyboard in Resources */,
 			);
